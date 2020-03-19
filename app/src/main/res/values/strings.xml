@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Message Board</string>
+    <string name="E_1">Your Name</string>
+    <string name="E_2">Topic</string>
+    <string name="E_3">Details</string>
+    <string name="B_1">Submit</string>
+    <string name="B_2">Add new message</string>
+    <string name="C_1">Anonymous?</string>
+</resources>

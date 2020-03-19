@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MessageActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/C_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/contentMargin"
+            android:layout_marginLeft="@dimen/contentMargin"
+            android:text="@string/C_1"
+            android:textSize="@dimen/checkBoxTextSize" />
+
+        <EditText
+            android:id="@+id/E_1"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:hint="@string/E_1"
+            android:editable="true" />
+
+        <EditText
+            android:id="@+id/E_2"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:hint="@string/E_2"
+            android:inputType="textMultiLine" />
+
+
+        <EditText
+            android:id="@+id/E_3"
+            style="@style/EditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/multiLine"
+            android:background="@drawable/edit_text_background"
+            android:freezesText="true"
+            android:hint="@string/E_3"
+            android:inputType="textMultiLine"/>
+
+
+
+        <Button
+            android:id="@+id/B_1"
+            style="@style/ButtonStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/B_1"
+            android:onClick="submit"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
